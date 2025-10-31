@@ -1,0 +1,19 @@
+{
+  "name": "fastify-todo-api",
+  "version": "1.0.0",
+  "description": "Fastify API for todo tasks with MongoDB and JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^6.0.0",
+    "@fastify/swagger": "^8.0.0",
+    "@fastify/swagger-ui": "^1.10.2",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.0.0",
+    "fastify": "^4.0.0",
+    "fastify-plugin": "^4.0.0",
+    "mongoose": "^7.0.0"
+  }
+}
